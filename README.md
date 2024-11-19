@@ -11,30 +11,37 @@ Este é o meu portfólio digital, criado com as tecnologias mais recentes para m
 ## Como Usar
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/FlightofIcarus/portfolio-react.git```
+   git clone https://github.com/FlightofIcarus/portfolio-react.git
 
 2. **Instale as dependências:**
-```bash
-cd seu-repositorio
-npm install```
-
-
+   ```bash
+   cd seu-repositorio
+   npm install
+   ````
 3. **Inicie o desenvolvimento:**
-```bash
-npm start```
+   ```bash
+   npm start
+   ````
 
-## Projetos Destacados
+## Projetos Destacados ##
 
-## Habilidades
-React
-JavaScript
-HTML
-CSS
-Styled-Components
-Git
+## Habilidades ##
+• React
+
+• JavaScript
+
+• HTML
+
+• CSS
+
+• Styled-Components
+
+• Git
 
 ## Contato
-LinkedIn: https://www.linkedin.com/in/santos-icaro/
+LinkedIn: https://www.linkedin.com/in/santos-icaro/ 
+
+Instagram: https://www.instagram.com/dev.icaro_s/
 
 ## Licença
 Este projeto está licenciado sob a licença MIT.
