@@ -30,7 +30,7 @@ const LogoSpanContainer = styled.span`
     color: ${({theme}) => theme.colors.callToActionColor};
     font-size: ${({theme}) => `${theme.fonts.size.desktop.subTitle}`};
 
-    @media screen and (max-width: 767.9px) {
+    @media (max-width: 767.9px) {
         font-size: ${({theme}) => `${theme.fonts.size.mobile.subTitle}`};
     }
 `;
