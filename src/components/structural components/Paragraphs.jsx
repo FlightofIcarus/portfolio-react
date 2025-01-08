@@ -5,7 +5,7 @@ const MainParagraph = styled.p`
     font-size: ${({theme}) => `${theme.fonts.size.desktop.paragraph}`};
     color: ${({theme}) => theme.colors.fontDefaultColor};
 
-    @media screen and (max-width: 767.9px) {
+    @media (max-width: 767.9px) {
         font-size: ${({theme}) => `${theme.fonts.size.mobile.paragraph}`};
     }
 

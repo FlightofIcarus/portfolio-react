@@ -10,7 +10,7 @@ display: inline-block;
     font-family: ${({theme}) => theme.fonts.face.titles};
     font-size: ${({theme}) => `${theme.fonts.size.desktop.subTitle}`};
 
-    @media screen and (max-width: 767.9px) {
+    @media (max-width: 767.9px) {
         font-size: ${({theme}) => `${theme.fonts.size.mobile.subTitle}`};
     }
 `;
