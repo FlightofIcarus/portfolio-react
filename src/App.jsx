@@ -1,11 +1,28 @@
+import { ThemeProvider } from "styled-components";
+import { theme } from "./styles/theme";
+import { useState } from "react";
+import {MainParagraph} from "./components/structural components/Paragraphs";
+import { Container } from "./components/structural components/Containers";
 
 
 function App() {
-  
+const [themeActive, toggleThemeActive] = useState("dark");
+
+const myTheme = themeActive === "light" ? theme.lightMode : theme.darkMode
+const toggleTheme = () => {
+  toggleThemeActive(themeActive === "light" ? "dark" : "light");  
+};
 
   return (
     <>
-      <p>App</p>
+      <ThemeProvider theme={myTheme}>
+        <Container.MainContainer>
+  
+          
+          <MainParagraph>Olá, seja bem-vindo ao meu portfólio!</MainParagraph>
+          <button onClick={toggleTheme}>Mudar Tema</button>
+        </Container.MainContainer>
+      </ThemeProvider>
     </>
   )
 }
