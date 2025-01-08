@@ -12,7 +12,7 @@ class Theme {
                 emphasis: '3.2rem',
                 titles: '3.6rem',
                 subTitle: '2.4rem',
-                navLink: '1.6rem'
+                navLink: '2rem'
             },
             mobile: {
                 paragraph: '1.4rem',
