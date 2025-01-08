@@ -1,0 +1,17 @@
+* {
+    --main-background-color: #36374b;
+    --main-element-color: #4B5162;
+    --emphasis-element-color: #6B728E;
+    --element-hover-color: #929AAB;
+    --call-to-action-color: #E84A5F;
+    --font-default-color: #FFFFFF;
+
+    /* Light Mode */
+
+    --main-background-color: #FFFFFF;
+    --main-element-color: #F2F2F2;
+    --emphasis-element-color: #E0E0E0;
+    --element-hover-color: #C8C8C8;
+    --call-to-action-color: #36374b;
+    --font-default-color: #333333;
+}
