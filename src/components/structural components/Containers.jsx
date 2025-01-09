@@ -19,11 +19,13 @@ const InternalContainer = styled(MainContainer)`
 `;
 
 const SpecificContainer = styled(MainContainer)`
+    background-color: transparent;
     display: flex;
     flex-direction: row;
     align-items: center;
     min-height: auto;
     gap: 1.2rem;
+    width: fit-content;
 `;
 
 const LogoSpanContainer = styled.span`
