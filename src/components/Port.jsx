@@ -12,8 +12,6 @@ function Port() {
     const darkTheme = theme.darkMode;
     const lightTheme = theme.lightMode;
 
-  console.log(themeActive);
-
     return(
     <ThemeProvider theme={themeActive === "light" ? lightTheme : darkTheme}>
         <Container.MainContainer>
